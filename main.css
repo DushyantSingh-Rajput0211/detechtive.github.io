@@ -1,0 +1,35 @@
+
+
+html{
+    
+    margin: 20mm;
+    border: 2mm double rgb(255, 60, 0);
+}
+
+h1
+{
+    text-align:center;
+    text-decoration:underline;
+
+
+}
+
+img{
+    position: absolute ; top: 170px; right: 180px;
+    border: 2px solid;
+    height: 4cm;
+    border-radius: 5mm;
+    }
+
+h4{
+    text-decoration:underline;
+    color:rgb(255, 60, 0);
+}
+
+body{
+    
+    margin: 25mm;
+    /* background-color: rgba(0, 255, 191, 0.342); */
+ 
+
+}
