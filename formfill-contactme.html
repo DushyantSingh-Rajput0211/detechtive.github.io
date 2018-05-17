@@ -4,45 +4,65 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact us</title>
+    <link rel="stylesheet" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <style>
-        body{
-            background-color: #ffffff;
-            font-family:Arial, Helvetica, sans-serif;
-            }
-    </style>
     <body>
+        <div id="container">
+        <h1>HTML Styling Sheet</h1>
     <form>
+        
         <fieldset>
-            <legend align="center"><h1>Contact Us!</h1></legend>
-            <table align="center">
-                <th>
-            <address>Please complete the information below</address> <br>
-
-            First Name : <input type="text" placeholder="In Block Letters"> Last Name : <input type="text" placeholder="In Block Letters"> <br><br>
-            Title:  <input type="radio" name="Profession"> Dr.  
-                    <input type="radio" name="Profession"> Prof.  
-                    <input type="radio" name="Profession"> Er.  <br>    
-            Other:  <input type="radio" name="Profession"> Mr.  
-                    <input type="radio" name="Profession"> Ms.  
-                    <input type="radio" name="Profession"> Mrs.  <br><br>
-           
-            Query Details : <br>
-            <textarea name="Query" cols="60" rows="10" title="your query details" placeholder="Please enter your query details here..."></textarea>   <br><br>
-            Postal/Zip Code :   <input type="text" placeholder="Postal or ZIP Code"> City :  <input type="text" placeholder="City Name"> <br> <br>
-            Country : <input type="text" placeholder="In Block Letters"> Telephone No. : <input type="text" placeholder=" Your phone number"> <br> <br>
-            Email : <input type="email" placeholder="yourid@email.com"> <br> <br> <br><br>
+            <legend align="center"><h2>Contact Us!</h2></legend>
             
-                <input type="reset" value="Reset" title="Clear form"> 
+            <address>Please complete the information below</address>
             
-                <input type="Submit" value="Contact for query!" onclick="alert('You have successfully submitted your query.')" title="Submit the form with full details"></th>
-                <br><br>
+            <label for="contact_fname">First Name :</label> 
+            <input id="contact_fname" type="text" placeholder="In Block Letters">
+            
+            <label for="contact_lname">Last Name :</label>
+            <input id="contact_lname" type="text" placeholder="In Block Letters">
+            
+            <label>Title :</label>
+            <input type="radio" name="Profession"> Dr.</span>
+            <input type="radio" name="Profession"> Prof.  
+            <input type="radio" name="Profession"> Er.
+            
+            <label>Other :</label>
+            <input type="radio" name="Profession"> Mr.  
+            <input type="radio" name="Profession"> Ms.  
+            <input type="radio" name="Profession"> Mrs.  
                 
-            </table>
+            <label for="query">Query Details :</label>
+            <textarea id="query" title="your query details" cols="40" rows="10" placeholder="Please enter your query details here..."></textarea>           
+            
+            <label for="contact_zipcode"> Postal/Zip Code :</label>
+            <input type="text" placeholder="Postal or ZIP Code">
+            
+            <label for="contact_city"> City :</label>
+            <input type="text" placeholder="City Name"> 
+            
+            <label for="contact_countru">Country :</label>
+            <input type="text" placeholder="In Block Letters">
+            
+            <label for="contact_countru">Telephone No. :</label>
+            <input type="text" placeholder=" Your phone number"> 
+
+            <label for="contact_email">Email :</label>
+            <input type="email" placeholder="yourid@email.com">
+            
+            <br><br>
+            <div id="form_button">
+                <input type="reset" value="Reset" title="Clear form"> 
+             
+                <input type="Submit" value="Contact for query!" onclick="alert('You have successfully submitted your query.')" title="Submit the form with full details"></th>
+            </div>
+                
+            </div>
         </fieldset>
     </form>
     <a href="./index.html"><h3> Back to Home Page! </h3></a>
+    </div>
 </body>
 </html>
 

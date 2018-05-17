@@ -1,8 +1,9 @@
 
 
-html{
+#cv-body{
     
     margin: 20mm;
+    padding: 30px;
     border: 2mm double rgb(255, 60, 0);
 }
 
@@ -21,10 +22,8 @@ h5
    border-bottom: solid 2px black;
 
 }
-
-
 img{
-    position: absolute ; top: 120px; right: 180px;
+    position: absolute ; top: 120px; right: 210px;
     border: 2px solid;
     height: 4cm;
     border-radius: 5mm;
@@ -38,3 +37,124 @@ h4{
 body{
     margin: 25mm;
     }
+
+.bg-position{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+#bg-1{
+    background: url('./images1/pic.jpg');
+    background-size: 20%;
+    
+}
+#bg-2{
+    background-color: blueviolet;
+}
+#bg-3{
+    background: url('./images1/pic.jpg');
+    background-repeat: repeat-y;
+    background-size: 20%;
+}
+#bg-4{
+    background: url('./images1/pic.jpg');
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center center;
+}
+/* 
+
+
+#formbody{
+    background-color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 700px;
+    margin: 10px auto;
+    }
+
+#formcontent{
+    margin: 0 auto;
+    align-content: center;
+}
+form address{
+    text-align: center center;
+}
+form legend{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: rgba(228, 25, 109, 0.877);
+    border-color: blueviolet;
+    background-color: chartreuse;
+    margin: 5px;
+    padding: 10px;
+}
+*/
+/* Forms */
+
+#container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+form{
+    background-image: url('images/red_background.jpg');
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form fieldset{
+    background-image: url('images/blue_background.jpg');
+    padding: 40PX;
+    border: solid 1px white;
+}
+h2{
+    margin: 0;
+}
+form legend{
+    border: 1px solid #333;
+    background-image: url('images/blue_background.jpg');
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+form label{
+    font-size: 11px;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 20px;
+    -webkit-font-smoothing:antialiased;
+    text-rendering: optimizeLegibility;
+}
+#form_button{
+    text-align: center;
+    margin: 20px;
+    word-spacing: 3em;
+}
+form address{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+form input[type="text"], form input[type="email"], form textarea{
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: solid 1px #b90707;
+    background-image: url('images/red_background.jpg');
+}
+
+form input[type="submit"], form input[type="reset"]
+{
+    border: none;
+    background-image: url('images/Button-Background.jpg');
+    height: 40px;
+    padding: 0 20px;
+    border: solid 1px #d4730c;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
