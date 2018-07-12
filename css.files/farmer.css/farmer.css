@@ -160,7 +160,8 @@ h1{
     }
      */
     #special-offer {
-        width: 275px;
+        text-align: left;
+        width: 225px;
         /* position: relative; */
         margin-bottom: 50px;
         /* padding: 0 20px 20px; */
@@ -181,8 +182,8 @@ h1{
     /* #steak{        
         position: absolute;
         bottom: -20px;
-        right: 10px; */
-        }
+        right: 10px;
+        }*/
     
     #sidebar h3 {
         font-size: 130%;
@@ -196,13 +197,17 @@ h1{
     
     
     #sidebar{
-        width: 275px;
+        width: 225px;
         margin: 0 auto;
        /* float: left;
         background: url('texture_background.jpg') top left repeat;
         padding: 20px 20px 0;
         margin:0 0 0 20px; */
     } 
+/*     
+    #sidebar .widget{
+        padding: 0 0 20px;
+    } */
     
     /* #sidebar .widget{
         padding: 0 0 20px;

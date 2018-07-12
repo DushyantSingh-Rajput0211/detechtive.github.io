@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#myheader {
+    width: 100%;
+    background:  #006502;
+}
+
+#upperheader {
+    margin: 0 0 0 178px;
+    padding: 20px;  
+    width: 45%;
+    float: left;
+    padding: 0;     
+}
+
+.headerlink ul li{
+    margin-top: 6px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#m {
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    color: #006502;
+}
+
+#m h1 {
+    color: #006502;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    -webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+
+#m a {
+    text-decoration: none;
+}
+
+.freecode {
+    position: relative;
+    top: 8px;
+    right: -3px;
+}
+
+.sidebar{
+    width: 40%;
+    padding-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;    
+}
+
+.sidebar ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;  
+}
+
+.sidebar ul li a{
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+    font-size: 14px;
+    font-weight: 400;
+    color: #b0cfa9;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.signin{
+    width: 70px;  
+}
+
+.signin a{
+    position: relative;
+    bottom: 10px;
+}
+
+#get{
+    position: relative;
+    bottom: 10px;
+}
+
+#get a {
+    border: 1px solid #b0cfa9;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0;
+    padding: 10px 15px;
+}
+
+#follow  {
+    color: #b0cfa9;
+    text-decoration: none;
+    margin-left: 30px;
+    border: 1px solid #b0cfa9;
+    border-radius: 3px;
+    padding: 0 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 5px;
+    position: relative;
+    top: -5px;
+ }
+
+#lowerheader {
+    margin: 0 0 0 170px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+    font-size: 14px;
+}
+
+#lowerheader ul {
+    float: left;
+    padding-bottom: 2%;
+    word-spacing: 15px;
+}
+
+#lowerheader ul li{
+    display: inline-block;
+    
+    }
+
+#lowerheader ul li a{
+    width: 100%;
+    color: #b0cfa9;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #006502;
+    }
+
+.learn{
+    word-spacing: normal;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#myheader::after{
+    visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+
+
+/* End of Header */
+
+#maincontent{
+    width: 730px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 140px;
+}
+
+#charliebrief{
+    text-align: left;
+    color: darkgrey; 
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+    font-size: 14px;
+}
+
+
+.authorpic{
+    float: left;
+    margin-right: 10px;
+}
+
+.charliename{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+    color: #181616c0;
+}
+
+#sidebar_a1 ul{
+    float: left;
+    width: 85%;
+    list-style: none;
+}
+
+#sidebar_a1 ul li{
+    display: inline-block;
+}
+
+#followmain  {
+    color:#429a21;
+    text-decoration: none;
+    margin-left: 30px;
+    border: 1px solid #429a21;
+    border-radius: 3px;
+    margin-left: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+#sidebar_a1 ul{
+    margin: 5px 0;
+}
+
+#sidebar_a1 ul li::after{
+    visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.para h1 {
+    font-size: 34px;
+    color: #292929;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+    text-align: left;
+    margin: 40px 0 15px;
+}
+
+.para p{
+    font-size: 22px;
+    color: #181616c0;
+    margin-bottom: 30px;
+    text-align: justify;
+    line-height: 35px;
+}
+
+.para p img{
+    width: 100%;
+}
+
+table td {
+    line-height: 30px;
+    font-size: 22px;
+    color: #181616c0;
+    text-align: left;
+    font-weight: normal;
+    vertical-align: top;
+}
+
+.num{
+    width: 25px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+/* Footer styling initiates from here */
+
+#myfooter {
+    width: 100%;
+    height: 72px;
+    background:  #fff;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+.footermain{
+    width: 55%;
+    margin:  auto;
+}
+
+
+.footermain table tr td img {
+    padding: 0;
+    margin-top: 15px ;
+    }
+
+.footermain table tr td p {
+    font-weight: 300;
+    padding: 5px 0 0 10px;
+    font-size: 18px;
+    font-family: Calibri; 
+    -webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+    line-height: 25px;
+    margin: 8px;
+}
+
+.learnmore{
+    color: #429a21;
+}
+
+.learnmore {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/* @media only screen and (min-width: 200px) and (max-width:600px) */
+
+
+
+
+
+
